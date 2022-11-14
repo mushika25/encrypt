@@ -30,7 +30,3 @@ try:
 		socket_file.close()
 finally:
 	listen_socket.close()
-
-
-
-

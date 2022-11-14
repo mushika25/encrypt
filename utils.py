@@ -11,6 +11,3 @@ def encode_data(data):
 	if isinstance(data, str):
 		data = data.encode()
 	return b64encode(data) + b'\n'
-
-
-

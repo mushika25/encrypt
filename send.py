@@ -27,6 +27,3 @@ try:
 		socket_file.close()
 finally:
 	chat_socket.close()
-
-
-
